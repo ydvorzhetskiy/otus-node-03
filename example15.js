@@ -3,7 +3,7 @@ const fs = require('fs')
 setTimeout(() => console.log('timeout out'))
 setImmediate(() => console.log('immediate out'))
 
-fs.readFile('./events.js', (err, data) => {
+fs.readFile(__filename, (err, data) => {
   console.log('fs')
   process.nextTick(() => console.log('next in'))
   setTimeout(() => console.log('timeout in'))
