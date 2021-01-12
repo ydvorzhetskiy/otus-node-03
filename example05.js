@@ -2,6 +2,7 @@ const EventEmitter = require('events')
 
 class MyThing extends EventEmitter {
   constructor() {
+    super();
     this.emit('thing1')
   }
 }
