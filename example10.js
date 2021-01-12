@@ -1,6 +1,6 @@
 console.log('start')
 
-process.nextTick(() => { 
+process.nextTick(() => {
   console.log('nextTick')
 })
 

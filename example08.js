@@ -4,4 +4,5 @@ setTimeout(() => {
   stop = true
 }, 1000)
 
-while (stop === false) {}
+while (stop === false) {
+}
