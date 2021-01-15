@@ -1,3 +1,4 @@
+// solution by maxim.rameev
 const EventEmitter = require('events')
 
 class ColdEmitter extends EventEmitter {
